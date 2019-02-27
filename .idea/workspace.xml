@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02a92b95-432a-43d1-82ef-7434355f8113" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/剑指offer/二叉树中和为某一值的路径.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/剑指offer/从上往下打印二叉树.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/剑指offer/删除链表中重复的结点.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/剑指offer/和为S的连续正数序列.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/剑指offer/字符串的排列.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/剑指offer/把字符串转换成整数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/剑指offer/把数组排成最小的数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/剑指offer/数组中出现次数超过一半的数字.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/剑指offer/表示数值的字符串.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/剑指offer/Python基础.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,6 +15,7 @@
     <SUITE FILE_PATH="coverage/LeetCode$6.coverage" NAME="6 Coverage Results" MODIFIED="1550805462547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$.coverage" NAME="把字符串转换成整数 Coverage Results" MODIFIED="1551165772273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/剑指offer" />
     <SUITE FILE_PATH="coverage/LeetCode$S.coverage" NAME="和为S的两个数字 Coverage Results" MODIFIED="1551085744275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/剑指offer" />
+    <SUITE FILE_PATH="coverage/LeetCode$Python.coverage" NAME="Python基础 Coverage Results" MODIFIED="1551283852181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/剑指offer" />
     <SUITE FILE_PATH="coverage/LeetCode$1.coverage" NAME="二进制中1的个数 Coverage Results" MODIFIED="1550854526325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/剑指offer" />
     <SUITE FILE_PATH="coverage/LeetCode$3.coverage" NAME="3 Coverage Results" MODIFIED="1550802432985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode$2.coverage" NAME="2 Coverage Results" MODIFIED="1550800217256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -31,11 +24,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/剑指offer/字符串的排列.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="82" selection-start-line="16" selection-start-column="82" selection-end-line="16" selection-end-column="82" />
+            <state relative-caret-position="440">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/剑指offer/Python基础.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="18" selection-start-line="18" selection-end-line="30" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -107,13 +109,14 @@
         <option value="$PROJECT_DIR$/剑指offer/二叉树中和为某一值的路径.py" />
         <option value="$PROJECT_DIR$/剑指offer/删除链表中重复的结点.py" />
         <option value="$PROJECT_DIR$/剑指offer/字符串的排列.py" />
+        <option value="$PROJECT_DIR$/剑指offer/Python基础.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1710" />
-    <option name="y" value="23" />
-    <option name="width" value="1680" />
+    <option name="x" value="905" />
+    <option name="y" value="245" />
+    <option name="width" value="786" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -124,7 +127,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,6 +143,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -162,7 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.二进制中1的个数">
+  <component name="RunManager" selected="Python.Python基础">
     <configuration name="数组中出现次数超过一半的数字" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -199,6 +202,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/剑指offer/二进制中1的个数.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python基础" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/剑指offer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/剑指offer/Python基础.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -407,6 +432,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Python基础" />
         <item itemvalue="Python.数组中出现次数超过一半的数字" />
         <item itemvalue="Python.和为S的两个数字" />
       </list>
@@ -426,21 +452,26 @@
       <workItem from="1550972326963" duration="13027000" />
       <workItem from="1551060000248" duration="22835000" />
       <workItem from="1551191627714" duration="6000" />
+      <workItem from="1551196875756" duration="32000" />
+      <workItem from="1551251304481" duration="14000" />
+      <workItem from="1551279307074" duration="65000" />
+      <workItem from="1551279544088" duration="1918000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62095000" />
+    <option name="totallyTimeSpent" value="64124000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1710" y="23" width="1680" height="1027" extended-state="0" />
+    <frame x="905" y="245" width="786" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17582418" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.38709676" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26737967" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26737967" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3989305" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -450,7 +481,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32941177" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.27058825" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.27058825" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -791,8 +822,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/剑指offer/字符串的排列.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="82" selection-start-line="16" selection-start-column="82" selection-end-line="16" selection-end-column="82" />
+        <state relative-caret-position="440">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/剑指offer/Python基础.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="18" selection-start-line="18" selection-end-line="30" selection-end-column="14" />
         </state>
       </provider>
     </entry>
