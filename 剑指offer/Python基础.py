@@ -27,5 +27,15 @@ for i in res:
         # 从 list 是移除某个元素， remove
 new_str = " ".join(list)
 # 使用空格把 list 中元素拼装成字符串
-print(res)
-print(new_str)
+# print(res)
+# print(new_str)
+
+
+# 27. filter方法求出列表所有奇数并构造新列表, a = [1,2,3,4,5,6,7,8,9,10]
+a = [1,2,3,4,5,6,7,8,9,10]
+def fn(a):
+     return a % 2 == 1
+newlist = filter(fn,a)
+# 返回的是 filter ， 需要用循环取出来
+newlist = [i for i in newlist]
+print(newlist)
