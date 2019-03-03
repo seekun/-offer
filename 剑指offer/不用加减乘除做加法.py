@@ -12,4 +12,3 @@ class Solution:
 
 s = Solution()
 print(s.Add(4, 2))
-hu

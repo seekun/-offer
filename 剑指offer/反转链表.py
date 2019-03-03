@@ -5,16 +5,21 @@ class ListNode:
         self.next = None
 class Solution:
     # 返回ListNode
-    def ReverseList(self, pHead):
-        # 如果为空链表或者只有一个节点， 返回该节点； 同时也是递归的出口
-        if pHead == None or pHead.next == None:
+    def ReverseListRec(self, pHead):
+        if not pHead or not pHead.next:
             return pHead
-        next = pHead.next
-        pHead.next = None
-        newHead = self.ReverseList(next)
-        next.next = pHead
-        return newHead
+        else:
+            pReversedHead = self.ReverseListRec(pHead.next)
+            pHead.next.next = pHead
+            pHead.next = None
+            return pReversedHead
 
-        # 无法理解递归， 暂时放下
+node1 = ListNode(10)
+node2 = ListNode(11)
+node3 = ListNode(13)
+node1.next = node2
+node2.next = node3
 
-# CyC 笔记中有迭代的方法
+S = Solution()
+p = S.ReverseListRec(node1)
+print(p.next.val)
